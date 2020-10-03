@@ -1,0 +1,30 @@
+title: HacktoberFest'19 IIITS
+description: >
+  Site for students to share there experience about open source
+  contribution and their opinion regarding the event organised in IIITS.
+
+safe: true
+exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".gitignore", "docs"]
+
+timezone: "Asia/Kolkata"
+url: "https://project-club-iiits.github.io/hacktoberfest2019-participants"
+
+exclude: [".gitignore", "README.md", "Gemfile", "Gemfile.lock", "LICENSE"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "experience"
+    values:
+      layout: "expr"
+      title: "Coder"
+      tag: "Full Time Dev :)"
+
+collections:
+  experience:
+    output: true
+    permalink: /experience/:name
+
+plugins:
+  - jemoji
+  - github-pages
