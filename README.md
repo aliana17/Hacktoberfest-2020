@@ -31,6 +31,7 @@ for example,
 
 
 ## Collabortors
-[Anchal Agarwal](https://github.com/anchal7299)
+[Anchal Agarwal](https://github.com/anchal7299)<br>
+
 [Harshit Singh](https://github.com/helios1101)
 
